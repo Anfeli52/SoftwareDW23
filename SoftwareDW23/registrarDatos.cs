@@ -119,6 +119,7 @@ namespace SoftwareDW23
 
             //INSERTAR LA INFORMACIÓN A LA BASE DE DATOS//
             String query = "INSERT INTO contaminacion(codigoAgua, nivelContaminante, nivelTurbidad, nombreAgua, cuerpoAgua, fechaMuestra, correoContaminacion, imagen) VALUES('"+ lblCodigoAgua.Text + "', '" + txtNivelPH.Text+"', '"+txtTurbidad.Text+"', '"+txtNombreCuerpo.Text+"', '"+cbCuerpoAgua.Text+"','"+ fechaActual + "' ,'"+ correo +"', '@imagen')";
+            
             //CODIGO AGUA//
             Random random = new Random();
             int numRandom = random.Next(1001, 10000);
