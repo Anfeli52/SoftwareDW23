@@ -127,7 +127,6 @@ namespace SoftwareDW23
             lblCodigoAgua.Text = codigoAgua;
 
             ///AGREGAR IMAGEN//
-
             databaseConnection.Open();
             Console.WriteLine(query);
             byte[] mifoto = clsImagen.ImageToByte(ptbImagen.Image);
