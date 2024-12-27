@@ -230,6 +230,7 @@
             this.Controls.Add(this.btnCancelar);
             this.Name = "registrarDatos";
             this.Text = "registrarDatos";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.registrarDatos_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbImagen)).EndInit();

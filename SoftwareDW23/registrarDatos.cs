@@ -157,5 +157,10 @@ namespace SoftwareDW23
             Login.Show();
             
         }
+
+        private void registrarDatos_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
     }
 }
